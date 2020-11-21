@@ -42,10 +42,10 @@ DeHuffman and DeLZW:
 (uncompres text files that are compressed useing Huffman encodings)
 
 javac DeHuffman.java  
-java DeHuffman <filename>.hh | java Huffman *.hh  
+java DeHuffman \<filename\>.hh | java Huffman *.hh  
   
 javac DeLZW.java  
-java DeLZW <filename>.ll | java Huffman *.ll  
+java DeLZW \<filename\>.ll | java Huffman *.ll  
   
 i.e. java DeHuffman a.txt.hh -> a.txt | java DeLZW a.txt.ll -> a.txt
 
