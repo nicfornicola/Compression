@@ -22,29 +22,24 @@ Huffman and LZW:
 -------------------
 (compress any text file extension including globs that contain all the same type of file or different types of files)
 
-javac Huffman.java 
-
-java Huffman <filename>.txt | java Huffman *.txt 
+javac Huffman.java  
+java Huffman <filename>.txt | java Huffman *.txt  
 
 DeHuffman and DeLZW: 
 -------------------
 (uncompres text files that are compressed useing Huffman encodings)
 
-javac DeHuffman.java \n
-
-java DeHuffman <filename>.hh | java Huffman *.hh \n
-  
-javac DeLZW.java 
-
-java DeLZW <filename>.ll | java Huffman *.ll 
+javac DeHuffman.java  
+java DeHuffman <filename>.hh | java Huffman *.hh  
+javac DeLZW.java  
+java DeLZW <filename>.ll | java Huffman *.ll  
 
 Tarsn: 
 -------------------
 (puts any type of file or group of files into an archive, the arhive is made if it does not exist already)
 
-javac Tarsn.java
-
-java Tarsn archive <filename>.txt | java Tarsn archive *.txt
+javac Tarsn.java  
+java Tarsn archive <filename>.txt | java Tarsn archive *.txt  
   
 *Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar  
 Note:  if the glob is of different types, the arhives extension will be named after the first file read*
@@ -53,9 +48,8 @@ UnTars:
 -------------------
 (reads .tar, .zh, .zl and makes or overwrites files that have the same names as the files stored in the arhive)
 
-javac UnTars.java
-
-java UnTars arhive.tar | java UnTars arhive.zl | java UnTars arhive.zh 
+javac UnTars.java  
+java UnTars arhive.tar | java UnTars arhive.zl | java UnTars arhive.zh  
 
 
 //describe the thing
