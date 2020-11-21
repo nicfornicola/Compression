@@ -20,7 +20,7 @@ Download the whole Compression zip
 Run "mvn test" in a command line in the dir with the pom.xml
 
 # Compile and run instructions:
-This is for running in src/main/java/
+This is for running in src/main/java/  
 If it says .txt, it could be any file extension
 
 Note: in example commands, "->" means a returns b, do not include "->" in command line
