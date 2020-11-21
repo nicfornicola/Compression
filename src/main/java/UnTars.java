@@ -26,15 +26,17 @@ public class UnTars
 		BinaryOut out = null;
 	
 
-
+		//checks if the tar is exists and is a file
 		if(!tar.exists() || !tar.isFile())
 		{
 			System.out.println("Tar does not exist");
 			return;
 		}	
 
+		//set in to the tarFile
 		in = new BinaryIn(tarFile);
 
+		//stop if its empty
 		if(in.isEmpty())
 		{
 			System.out.println("Tars is empty");
@@ -47,17 +49,18 @@ public class UnTars
 			// read the nameLength
 			int nameLength = in.readInt();
 
-			//System.out.println("nameLength: " + nameLength);
 			// read serperator 11111111
 			sep = in.readChar();
 			// read the fileName
 			String fileName = "";
 
-			for (int i = 0; i < nameLength; i++) {
+			for (int i = 0; i < nameLength; i++) 
+			{
+				// concatenate characters to string
 				fileName += in.readChar();
 			}
-			// concatenate characters to string
-			//System.out.println("fileName: " + fileName);
+
+			
 			// read serperator 11111111
 			sep = in.readChar();
 			// read fileSize
@@ -66,21 +69,17 @@ public class UnTars
 			// read serperator 11111111
 			sep = in.readChar();
 
-			//System.out.println("Extracting file: " + fileName + " (" + fileSize + ").");
 
 			// set out to output the contents of the file to its own file
-
-			//commented out the Binouts so I could output the content being read
-			
 			String str = "";
 			for (int i = 0; i < fileSize; i++) 
 			{
+				// concatenate characters to string
 				char con = in.readChar();
 				str += con;
 			}
 
-			//System.out.println("str:  " + str);
-
+			//write the stuff to the new file
 			out = new BinaryOut(fileName);
 			out.write(str);
 			out.close();
@@ -91,7 +90,6 @@ public class UnTars
 
 		}
 
-		
 
 	}
 
