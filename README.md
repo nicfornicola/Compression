@@ -8,11 +8,8 @@ This project implements LZW and Huffman encoding with Tarsing.
 # Downloading:
 Download the whole Compression zip
 
-
 # Testing:
-Run mvn clean test in a command line in dir with the pom.xml
-
-
+Run "mvn test" in a command line in the dir with the pom.xml
 
 # Compile and run instructions:
 (This is for running in src/main/java/)
@@ -24,6 +21,11 @@ Huffman and LZW:
 
 javac Huffman.java  
 java Huffman <filename>.txt | java Huffman *.txt  
+  
+javac LZW.java  
+java LZW <filename>.txt | java Huffman *.txt  
+  
+i.e. java Huffman a.txt -> a.txt.hh | java LZW a.txt -> a.txt.ll 
 
 DeHuffman and DeLZW: 
 -------------------
@@ -34,6 +36,8 @@ java DeHuffman <filename>.hh | java Huffman *.hh
   
 javac DeLZW.java  
 java DeLZW <filename>.ll | java Huffman *.ll  
+  
+i.e. java DeHuffman a.txt.hh -> a.txt | java DeLZW a.txt.ll -> a.txt
 
 Tarsn: 
 -------------------
@@ -41,6 +45,8 @@ Tarsn:
 
 javac Tarsn.java  
 java Tarsn archive <filename>.txt | java Tarsn archive *.txt  
+  
+i.e. java Tarsn archive a.txt -> arhive.tar | java Tarsn arc a.ll -> arc.zl | java Tarsn arc a.hh -> arc.zh | java Tarsn arc1 *.txt arc1.tar
   
 *Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar  
 Note:  if the glob is of different types, the arhives extension will be named after the first file read*
