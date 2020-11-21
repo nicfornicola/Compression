@@ -1,5 +1,5 @@
 # Compression
-This project implements LZW and Huffman encoding with Tarsing.
+This project implements LZW and Huffman encoding with Tarsing. Huffman and LZW compress files using different algorithms with different pros and cons shown below. Tarsing put files into an organized arhive.
 
 # Pros and Cons:
 Huffman:
@@ -42,28 +42,28 @@ DeHuffman and DeLZW:
 (uncompres text files that are compressed useing Huffman encodings)
 
 javac DeHuffman.java  
-java DeHuffman \<filename\>.hh | java Huffman *.hh  
+java DeHuffman \<filename\>.hh | java DeHuffman *.hh  
   
 javac DeLZW.java  
-java DeLZW \<filename\>.ll | java Huffman *.ll  
+java DeLZW \<filename\>.ll | java DeLZW *.ll  
   
 i.e. java DeHuffman a.txt.hh -> a.txt | java DeLZW a.txt.ll -> a.txt
 
 Tarsn: 
 -------------------
-(puts any type of file or group of files into an archive, the arhive is made if it does not exist already)
+(puts any type of file or glob into an archive, the arhive is made if it does not exist already)
 
 javac Tarsn.java  
 java Tarsn archive \<filename\>.txt | java Tarsn archive *.txt  
   
-i.e. java Tarsn archive a.txt -> arhive.tar | java Tarsn arc a.ll -> arc.zl | java Tarsn arc a.hh -> arc.zh | java Tarsn arc1 \*.txt arc1.tar
+i.e. java Tarsn archive a.txt -> arhive.tar | java Tarsn arc a.ll -> arc.zl | java Tarsn arc a.hh -> arc.zh | java Tarsn arc1 *.txt arc1.tar
   
 *Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar  
 Note:  if the glob is of different types, the arhives extension will be named after the first file read*
   
 UnTars: 
 -------------------
-(reads .tar, .zh, .zl and makes or overwrites files that have the same names as the files stored in the arhive)
+(reads .tar, .zh, .zl and makes a new file or overwrites files from the files stored in the arhive)
 
 javac UnTars.java  
 java UnTars archive.tar | java UnTars archive.zl | java UnTars archive.zh
@@ -71,7 +71,7 @@ java UnTars archive.tar | java UnTars archive.zl | java UnTars archive.zh
 i.e. java UnTars archive.tar -> a.txt, b.txt | java UnTars archive.zl-> a.txt.ll, b.txt.ll | java UnTars archive.zh -> a.txt.hh, b.txt.hh
 
 
-//describe the thing
+
 
 
 
