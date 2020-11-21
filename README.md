@@ -46,7 +46,7 @@ javac Tarsn.java
 
 java Tarsn archive <filename>.txt | java Tarsn archive *.txt
   
-*Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar
+*Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar  
       if the glob is of different types, the arhives extension will be named after the first file read*
   
 UnTars: 
