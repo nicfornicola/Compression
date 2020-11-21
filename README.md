@@ -30,10 +30,10 @@ Huffman and LZW:
 (compress any text file extension including globs that contain all the same type of file or different types of files)
 
 javac Huffman.java  
-java Huffman <filename>.txt | java Huffman *.txt  
+java Huffman \<filename\>.txt | java Huffman *.txt  
   
 javac LZW.java  
-java LZW <filename>.txt | java Huffman *.txt  
+java LZW \<filename\>.txt | java Huffman *.txt  
   
 i.e. java Huffman a.txt -> a.txt.hh | java LZW a.txt -> a.txt.ll 
 
@@ -54,9 +54,9 @@ Tarsn:
 (puts any type of file or group of files into an archive, the arhive is made if it does not exist already)
 
 javac Tarsn.java  
-java Tarsn archive <filename>.txt | java Tarsn archive *.txt  
+java Tarsn archive \<filename\>.txt | java Tarsn archive *.txt  
   
-i.e. java Tarsn archive a.txt -> arhive.tar | java Tarsn arc a.ll -> arc.zl | java Tarsn arc a.hh -> arc.zh | java Tarsn arc1 *.txt arc1.tar
+i.e. java Tarsn archive a.txt -> arhive.tar | java Tarsn arc a.ll -> arc.zl | java Tarsn arc a.hh -> arc.zh | java Tarsn arc1 \*.txt arc1.tar
   
 *Note: if the file being Tarsd is a .ll|.hh|.txt the arhive will be .zl|.zh|.tar  
 Note:  if the glob is of different types, the arhives extension will be named after the first file read*
