@@ -17,12 +17,12 @@ Cons: If the file doesnt have any repeating pars not much can be compressed, not
 Download the whole Compression zip
 
 # Testing:
-Run "mvn test" in a command line in the dir with the pom.xml
+Navigate: Go into the Compression file and open a cmd, "mvn test" to run the tests
 
 # Compile and run instructions:
-This is for running in src/main/java/  
-If it says .txt, it could be any file extension
+This is for running in Compression/src/main/java/  
 
+Note: If the CLI say .txt, it could be any file extension  
 Note: in example commands, "->" means a returns b, do not include "->" in command line
 
 Huffman and LZW: 
