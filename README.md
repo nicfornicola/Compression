@@ -12,8 +12,10 @@ Download the whole Compression zip
 Run "mvn test" in a command line in the dir with the pom.xml
 
 # Compile and run instructions:
-(This is for running in src/main/java/)
-(if it says .txt, it could be any file extension)
+This is for running in src/main/java/
+If it says .txt, it could be any file extension
+
+Note: in example commands, "->" means a returns b, do not include "->" in command line
 
 Huffman and LZW: 
 -------------------
@@ -56,7 +58,9 @@ UnTars:
 (reads .tar, .zh, .zl and makes or overwrites files that have the same names as the files stored in the arhive)
 
 javac UnTars.java  
-java UnTars arhive.tar | java UnTars arhive.zl | java UnTars arhive.zh  
+java UnTars archive.tar | java UnTars archive.zl | java UnTars archive.zh
+
+i.e. java UnTars archive.tar -> a.txt, b.txt | java UnTars archive.zl-> a.ll, b.ll | java UnTars archive.zh -> a.hh, b.hh
 
 
 //describe the thing
