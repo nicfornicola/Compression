@@ -9,7 +9,7 @@ Cons: Uncompressed small files might be smaller then their compressed version, t
 
 LZW:
 -------
-Pros: Lossless compression like Huffman, Fast unlike Huffman (doest have to read through the whole file) simpler to implement then Huffman
+Pros: Lossless compression like Huffman, Fast unlike Huffman (doest have to read through the whole file) simpler to implement then Huffman  
 Cons: If the file doesnt have any repeating pars not much can be compressed, not good at compressing files that are not text files, we can't predict how big the strings will be, it can get really big really fast
 
 
