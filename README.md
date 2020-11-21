@@ -31,6 +31,7 @@ DeHuffman and DeLZW:
 
 javac DeHuffman.java  
 java DeHuffman <filename>.hh | java Huffman *.hh  
+  
 javac DeLZW.java  
 java DeLZW <filename>.ll | java Huffman *.ll  
 
