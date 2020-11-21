@@ -20,12 +20,14 @@ Run mvn clean test in a command line in dir with the pom.xml
 
 Huffman can compress any text file extension including globs that contain all the same type of file or different types of files
 -------------------
-javac Huffman.java \n
-java Huffman <filename>.txt | java Huffman *.txt \n
+javac Huffman.java 
+
+java Huffman <filename>.txt | java Huffman *.txt 
 
 DeHuffman uncompresses text files that are compressed useing Huffman encodings
 -------------------
 javac DeHuffman.java \n
+
 java DeHuffman <filename>.hh | java Huffman *.hh \n
 
 javac LZW.java
