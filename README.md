@@ -39,7 +39,7 @@ i.e. java Huffman a.txt -> a.txt.hh | java LZW a.txt -> a.txt.ll
 
 DeHuffman and DeLZW: 
 -------------------
-(uncompres text files that are compressed useing Huffman encodings)
+(uncompres text files that are compressed using Huffman encodings)
 
 javac DeHuffman.java  
 java DeHuffman \<filename\>.hh | java DeHuffman *.hh  
