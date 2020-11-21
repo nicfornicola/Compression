@@ -60,7 +60,7 @@ UnTars:
 javac UnTars.java  
 java UnTars archive.tar | java UnTars archive.zl | java UnTars archive.zh
 
-i.e. java UnTars archive.tar -> a.txt, b.txt | java UnTars archive.zl-> a.ll, b.ll | java UnTars archive.zh -> a.hh, b.hh
+i.e. java UnTars archive.tar -> a.txt, b.txt | java UnTars archive.zl-> a.txt.ll, b.txt.ll | java UnTars archive.zh -> a.txt.hh, b.txt.hh
 
 
 //describe the thing
