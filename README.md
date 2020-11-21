@@ -22,7 +22,7 @@ Navigate: Go into the Compression file and open a cmd, "mvn test" to run the tes
 # Compile and run instructions:
 This is for running in Compression/src/main/java/  
 
-Note: If it says .txt, it could be any file extension  
+Note: If the CLI say .txt, it could be any file extension  
 Note: in example commands, "->" means a returns b, do not include "->" in command line
 
 Huffman and LZW: 
