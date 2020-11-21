@@ -1,0 +1,52 @@
+2020\11\20 20:38:26
+
+LongWordHuffmanTest   : XCABCGGALDDKSMUUXSYVRGTSGTGNQZFONWGGABXAVQIUZUWWINuxddazjjzicjrtbybupxttzktpzjxenezydzabyrcpulakosvlUOJRNHJSIHCHOJSHKIONMZEFBSKWCMJGPSYYVVHETVHYBDLKAIiwmntscfhczyvehxfrgdohnmkoqkvshmndnlgahqupfpimvcbi
+
+UpperCaseHuffmanTest  : MHZVURSNLRPEURDFZFAAYEKNGZGWSFAKRPKMUGTEYCULZOSREENEIGQEALKMBFHJGICOOSCMETGBOYPYFIYERPGKYXXJPBUZEUJA
+
+NormalCaseLZWTest : Lguvbd Lapuypp Ocfuunrs Euemkpmrks
+
+LongWordLZWTest   : PPINSWXJOLCLVXTHHRPXCVZHZXYRLVGTJWKPLGYVDIIYJPOUQLdsvoffobsptussjtwsfhrywtvpmfbjysukshdlplwwrwkhsykjETKXWTRCGWZZZSMTCYCVQNNEHJMIQOHDGVFUCKVCHUAZIIQOBQmlqfyfjzaddiijnxbenbheljhgtvqltttvlaykcftymkskmrwf
+
+NormalCaseHuffmanTest : Dcqtte Izfbfvx Fwpblrdi Mxnmtfoenb
+
+GlobsHuffmanTest2 : STNYHanahtbr
+LWTcigelfboqc
+JWunvcmyrov
+
+
+LowerCaseLZWTest  : aebzhzopwrwovndwjdqgonhijhfgvropmdqfosdofksrehjjhdcbycznfnvesjawsyowlqeknuflrghvsmahaynbphobuscnnxyf
+
+UpperCaseLZWTest  : EQNMSETBOAELUEMFIXQKYGFTHUGLWJMEOXZINNSWCEZAWBRTEGBFEBOWRUZDVJDVPRNNCXQLAFJHDEOBILPKUCOGBJBAMWPEYDES
+
+LowerCaseHuffmanTest  : hbgacaxpdpnmmbnnwyrndgyjeumgpgtdshcdcroztdpxgyabxqkoyskkfxbmbmibroemrdnahxmyjwcicsixfyhjklfgsajtrzzd
+
+TarsLZWGlobTest : COEQYgnxecqh
+QWWtzfuhhemtf
+WSovfrvmrjk
+
+
+GlobsLZWTest1 : HYYPEhrarpbn
+DITtitqzkvgfu
+OQsyjxvoskp
+
+
+GlobsLZWTest2 : ABBXBiutlmlu
+HIGehymnvccbp
+RIeeuwrsyeq
+
+
+ManyThingsLZWTest : fJrzv>3FA:^=PI:7m2b{ow4r}PR"\(}y&%z2,hxl= ~]@"0`N/,NqwY]g/\2Tl6=XLDCMTvMkrK7'=?EIm@T$+!<beXk9tRCj#R
+
+GlobsHuffmanTest : WXJDGgsatkhw
+WRGpnyofahanz
+YHqgzofuzga
+
+
+TarsHuffmanGlobTest : WGXMXbwsphyq
+CNNogsutwzjzr
+SQdkrpyvmye
+
+
+ManyThingsHuffmanTest : ,Gp:)h$~QuRx+!f<(9p"7.Lh`W=izhqY>)HF_vb/Pmm)RE^KJj#igHsKb@]E)"Zs^|<:_e%#D/;[H-2RP@UkKo&iX4A|x._,M
+
