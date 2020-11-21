@@ -198,14 +198,6 @@ public class Huffman {
                 {
                     //compress from a.txt -> a.txt.hh
                     compress(in, out);
-        
-                    //expand from a.txt.hh -> a.txt
-                    //all within the output folder
-                    //BinaryIn comIn = new BinaryIn(outputpath + ".hh");
-                    //BinaryOut comOut = new BinaryOut(outputpath);
-            
-                    //a.txt.h -> a.txt
-                    //expand(comIn, comOut);
                 }
                 else
                     System.err.println("File to be compressed is empty.\n"); 
